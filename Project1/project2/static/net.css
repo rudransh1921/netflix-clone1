@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.imglogo{
+        background-image: url("pngwing.com.png");
+        background-size: 180px;
+        background-repeat: no-repeat;
+        display: block;
+        height: 93px;
+        width: 1400px;
+        translate:148px -5px;
+}
+.image1{
+    overflow-x: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.752), rgba(0, 0, 0, 0.273)), url('netflix-web.jpg');
+    height: 100vh;
+    width:100%;
+    opacity:0.97;
+
+}
+.form{
+    position: fixed;
+    height: 600px;
+    width:463px;
+    background-color: rgba(0, 0, 0, 0.76);
+    translate:532px 9px;
+    color:aliceblue;
+    font-family: sans-serif;
+}
+.email2{
+    opacity: 0.7;
+    color:rgb(255, 255, 255);
+    padding-left:10px;
+    margin-top: 22px;
+    margin-left: 72px;
+    width:320px;
+    height:55px;   
+    border:1px solid rgba(255, 255, 255, 0.689);
+    border-radius: 3px; 
+    background-color: rgba(0, 0, 0, 0.607);
+}
+.email2::placeholder{
+    padding-left: 10px;
+    color:rgba(255, 255, 255, 0.703);
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.pass3{
+    opacity: 0.7;
+    color:rgba(255, 255, 255, 0.703);
+    padding-left:10px;
+    margin-top:15px ;
+    margin-left: 72px;
+    width:320px;
+    height:55px;
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 3px; 
+    background-color: rgba(0, 0, 0, 0.607);
+}
+.pass3::placeholder{
+    padding-left: 10px;
+    color:rgba(255, 255, 255, 0.703);
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.sub1{
+    margin-top:15px;
+    margin-left: 72px;
+    width:320px;
+    height: 35px; 
+    border:0px;
+    border-radius: 3px;  
+    background-color:red;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+}
+#sig1{
+   margin-top: 45px;
+   margin-left: 72px;
+   font-size: 32px;
+   font-family: sans-serif;
+   font-weight: 750;
+}
+
+.remember{
+    margin-top: 152px;
+    font-family: sans-serif;
+    font-weight:10px;
+    margin-left: 72px;  
+}
+.new1{
+    margin-top: 30px;
+    margin-left: 72px;
+}
+#new2{
+    font-weight:100;
+    color: rgba(240, 255, 255, 0.681);
+}
+#new3{
+    translate:115px -50px;
+    font-weight: 600;
+}
+.pro{
+    margin-top: -35px;;
+    margin-left: 72px;
+    width:320px;
+    font-weight: 100;
+    font-size:small;
+    color: rgba(240, 255, 255, 0.681);
+}
+.warning{
+    margin-left: 72px;
+    margin-top: 10px; 
+    display:block;
+    font-size: 15px;
+    color:rgba(240, 255, 255, 0.681);
+}
